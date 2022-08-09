@@ -1,0 +1,174 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #38465b;
+  height: 100vh;
+  width: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.phoneCase {
+  margin-right: 110px;
+  margin-bottom: 800px;
+}
+
+.phoneCase > img {
+  position: absolute;
+  height: 830px;
+  width: 590px;
+}
+
+.masterContainer {
+  padding-top: 50px;
+  display: inline-block;
+  width: 375px;
+  height: 707px;
+  background-color: #f8f8f8 !important;
+  border-radius: 25px;
+}
+
+.bigCardContainer {
+  height: 210px;
+}
+
+.smallCardContainer {
+  margin-top: 5px;
+  height: 350px;
+  display: flex;
+}
+
+/* .currentContainer {
+} */
+
+#dailyContainer {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.tempSize {
+  font-size: 30px;
+  text-align: center;
+}
+
+.desSize {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  margin-top: -20px;
+}
+
+.smallCardBottom {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.bigCard {
+  height: 200px;
+  padding: auto;
+}
+
+.smallCardTop {
+  background-color: #1780b8;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.smallCard {
+  background-color: #ffffff;
+  color: #38465b;
+  font-weight: bold;
+  width: 80px;
+  height: 160px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.icon {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: -20px;
+}
+
+.BigCardBottom {
+  background-color: #d92c4a;
+  color: #eaf5fa;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.iconTop {
+  z-index: 1;
+  height: 150px;
+  width: 150px;
+
+  display: block;
+}
+
+.uppercard {
+  padding-block-start: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.bigCardMiddle {
+  padding: auto;
+}
+
+.mainInf {
+  margin-top: -80px;
+}
+
+.topInf {
+  font-size: 40px;
+  font-weight: bold;
+  color: #06c;
+}
+
+.middleInf {
+  font-size: 20px;
+  color: #38465b;
+}
+.bottomInf {
+  font-size: 20px;
+  color: #38465b;
+}
+
+#location {
+  text-align: center;
+  padding-top: 10px;
+  margin-block: 15px;
+  color: #06c;
+}
+
+#myAlert {
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  color: #38465b;
+}
